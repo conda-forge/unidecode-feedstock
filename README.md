@@ -3,7 +3,7 @@ About unidecode
 
 Home: https://pypi.python.org/pypi/Unidecode
 
-Package license: GPL-2
+Package license: GPL-2.0
 
 Feedstock license: BSD 3-Clause
 
