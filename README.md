@@ -14,14 +14,15 @@ Summary: ASCII transliterations of Unicode text
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/unidecode-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/unidecode-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/unidecode-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/unidecode-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/unidecode-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/unidecode-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/unidecode-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/unidecode-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/unidecode/badges/version.svg)](https://anaconda.org/conda-forge/unidecode)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/unidecode/badges/downloads.svg)](https://anaconda.org/conda-forge/unidecode)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-unidecode-green.svg)](https://anaconda.org/conda-forge/unidecode) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/unidecode.svg)](https://anaconda.org/conda-forge/unidecode) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/unidecode.svg)](https://anaconda.org/conda-forge/unidecode) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/unidecode.svg)](https://anaconda.org/conda-forge/unidecode) |
 
 Installing unidecode
 ====================
