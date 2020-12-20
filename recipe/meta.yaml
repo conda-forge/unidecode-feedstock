@@ -1,6 +1,6 @@
 {% set name = "Unidecode" %}
-{% set version = "1.1.1" %}
-{% set sha256 = "2b6aab710c2a1647e928e36d69c21e76b453cd455f4e2621000e54b2a9b8cce8" %}
+{% set version = "1.1.2" %}
+{% set sha256 = "a039f89014245e0cad8858976293e23501accc9ff5a7bdbc739a14a2b7b85cdc" %}
 
 package:
   name: {{ name|lower }}
@@ -14,16 +14,16 @@ source:
 build:
   noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
   entry_points:
     - unidecode = unidecode.util:main
 
 requirements:
   host:
     - pip
-    - python
+    - python >=2.7
   run:
-    - python
+    - python >=2.7
 
 test:
   imports:
@@ -33,9 +33,9 @@ test:
 
 about:
   home: https://pypi.python.org/pypi/Unidecode
-  license: GPL-2.0
+  license: GPL-2.0-or-later
   license_file: LICENSE
-  summary: 'ASCII transliterations of Unicode text'
+  summary: ASCII transliterations of Unicode text
   dev_url: https://www.tablix.org/~avian/git/unidecode.git
 
 extra:
