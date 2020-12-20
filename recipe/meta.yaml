@@ -33,7 +33,7 @@ test:
 
 about:
   home: https://pypi.python.org/pypi/Unidecode
-  license: GPL-2.0
+  license: GPL-2.0-or-later
   license_file: LICENSE
   summary: ASCII transliterations of Unicode text
   dev_url: https://www.tablix.org/~avian/git/unidecode.git
