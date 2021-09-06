@@ -21,9 +21,9 @@ build:
 requirements:
   host:
     - pip
-    - python 2.7|>=3.5
+    - python >=3.5
   run:
-    - python 2.7|>=3.5
+    - python >=3.5
 
 test:
   imports:
@@ -36,7 +36,7 @@ about:
   license: GPL-2.0-or-later
   license_file: LICENSE
   summary: ASCII transliterations of Unicode text
-  dev_url: https://www.tablix.org/~avian/git/unidecode.git
+  dev_url: https://github.com/avian2/unidecode
 
 extra:
   recipe-maintainers:
