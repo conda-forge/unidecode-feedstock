@@ -9,7 +9,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/unidecode-feeds
 
 Summary: ASCII transliterations of Unicode text
 
-Development: https://www.tablix.org/~avian/git/unidecode.git
+Development: https://github.com/avian2/unidecode
 
 Current build status
 ====================
