@@ -1,11 +1,11 @@
-About unidecode
-===============
+About unidecode-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/unidecode-feedstock/blob/main/LICENSE.txt)
 
 Home: https://pypi.python.org/pypi/Unidecode
 
 Package license: GPL-2.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/unidecode-feedstock/blob/main/LICENSE.txt)
 
 Summary: ASCII transliterations of Unicode text
 
