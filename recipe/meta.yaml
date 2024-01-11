@@ -1,6 +1,6 @@
 {% set name = "Unidecode" %}
-{% set version = "1.3.7" %}
-{% set sha256 = "3c90b4662aa0de0cb591884b934ead8d2225f1800d8da675a7750cbc3bd94610" %}
+{% set version = "1.3.8" %}
+{% set sha256 = "cfdb349d46ed3873ece4586b96aa75258726e2fa8ec21d6f00a591d98806c2f4" %}
 
 package:
   name: {{ name|lower }}
