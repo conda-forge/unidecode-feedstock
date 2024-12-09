@@ -1,0 +1,50 @@
+context:
+  name: Unidecode
+  version: 1.3.8
+  python_min: "3.9"
+
+package:
+  name: ${{ name|lower }}
+  version: ${{ version }}
+
+source:
+  url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name }}-${{ version }}.tar.gz
+  sha256: cfdb349d46ed3873ece4586b96aa75258726e2fa8ec21d6f00a591d98806c2f4
+
+build:
+  number: 1
+  noarch: python
+  script: python -m pip install . -vv
+  python:
+    entry_points:
+      - unidecode = unidecode.util:main
+
+requirements:
+  host:
+    - pip
+    - setuptools
+    - python ${{ python_min }}
+  run:
+    - python >=${{ python_min }}
+
+tests:
+  - python:
+      imports:
+        - unidecode
+      python_version: ${{ python_min }}
+  - script:
+      - unidecode --help
+    requirements:
+      run:
+        - python ${{ python_min }}
+
+about:
+  license: GPL-2.0-or-later
+  license_file: LICENSE
+  summary: ASCII transliterations of Unicode text
+  homepage: https://pypi.python.org/pypi/Unidecode
+  repository: https://github.com/avian2/unidecode
+
+extra:
+  recipe-maintainers:
+    - synapticarbors
